@@ -61,7 +61,6 @@ Sonra `train.csv` və `test.csv` pandas ilə oxunur. Test faylındakı `id` süt
 | `publish_year` | İl |
 | `publish_month` | Ay |
 | `publish_day` | Gün |
-| `publish_hour` | Saat |
 
 Bu əməliyyat `add_date_features()` funksiyası ilə həm train, həm də test datasına tətbiq olunur. Sonda orijinal `publish_date` sütunu silinir.
 
